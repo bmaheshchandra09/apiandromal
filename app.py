@@ -41,4 +41,5 @@ def upload():
   d['output'] = res
   return jsonify(d)
 
-app.run()
+if __name__ ==  "__main__":
+  app.run()
